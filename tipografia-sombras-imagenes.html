@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Material Design whith materialize</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Flow text es una propiedad para agrandar el texto consideradamente muy similiar a la propiedad de css font-size: 1vw; ya que es responsive -->
+            <blockquote class="flow-text">
+                This is an example quotation that uses the blockquote tag.
+            </blockquote>
+            <p class="flow-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi facilis ut labore, voluptatem illum nihil temporibus eos? Numquam, doloremque illo cum ipsam facilis error veniam dolorum incidunt, adipisci a atque.
+            </p>
+
+            <!-- flow-text adapta automaticamente el tamaño de letra -->
+            <!-- z-depht tienes diferentes niveles de sombreado del 1 al 5 -->
+            <!-- section le da un espaciado al contenido de su contenido -->
+            <h1 class="flow-text z-depth-1 section">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, suscipit.
+            </h1>
+            <h1 class="flow-text z-depth-2 section">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, suscipit.
+            </h1>
+            <h1 class="flow-text z-depth-3 section">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, suscipit.
+            </h1>
+            <h1 class="flow-text z-depth-4 section">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, suscipit.
+            </h1>
+            <h1 class="flow-text z-depth-5 section circle">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, suscipit.
+            </h1>
+            <!-- responsive-img nos ayuda a que las imagenes se adapten a la grid ya que si son muy grandes estan por automatico ponen su mayor tamaño -->
+            <!-- circle  nos ayuda a ponen en forma de circulo casi cualquier elemento sin embargo no es muy bueno este efecto visualmente-->
+            <!-- video-container hace responsive el video -->
+            <div class="row">
+                <div class="col s3">
+                    <img class="responsive-img" src="https://images.pexels.com/photos/3006007/pexels-photo-3006007.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                </div>
+                <div class="col s6">
+                    <img class="responsive-img" src="https://images.pexels.com/photos/1114897/pexels-photo-1114897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                </div>
+                <div class="col s3">
+                    <img class="circle responsive-img" src="https://images.pexels.com/photos/2409694/pexels-photo-2409694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                </div>
+                <div class="col s12 m12 l12 xl3">
+                    <div class="video-container circle">
+                        <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
